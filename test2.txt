@@ -1,0 +1,18 @@
+BODY
+10
+<><BODY garbage>body</BODY>
+aBc
+923
+<dont replacethis>abcabc<abcabcde>
+table
+1
+<ta>ble<TaBlewidth=100></table></ta>
+replace
+323
+nothing inside
+HI
+667
+92<HI=/><z==//HIb><cHIhi>
+a
+23
+<a B c a>
