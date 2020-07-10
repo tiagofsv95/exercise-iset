@@ -59,12 +59,9 @@ function raplaceTag(stringArray) {
           .toLowerCase()
           .replace(new RegExp(originalTag.toLowerCase(), "g"), replaceTag));
       
+      finalString = finalString.replace(replacedTag[2*j], replacedTag[2*j+1]);
     }
 
-    for(let i = 0; i < replacedTag.length/2; i++) {
-      finalString = finalString.replace(replacedTag[2*i], replacedTag[2*i+1]);
-    }
-    
     return finalString;
 
   });
